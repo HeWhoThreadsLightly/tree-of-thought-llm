@@ -16,8 +16,8 @@ setuptools.setup(
     project_urls={
         'Homepage': 'https://github.com/princeton-nlp/tree-of-thought-llm',
     },
-    package_dir={'': 'src'},
-    packages=setuptools.find_packages(where='src'),
+    package_dir={'': 'LLMglue'},
+    packages=setuptools.find_packages(where='LLMglue'),
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
